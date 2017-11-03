@@ -1,0 +1,33 @@
+
+   	body {
+		margin-top: 50px;
+                background-color: #E6E6EA;
+
+	}
+        
+        div.ui.secondary.inverted.menu.fixed{
+            background-color: #28C4BF;
+            
+
+        }
+        
+        div.image{
+            width: 100%;
+            height:auto;
+            overflow: hidden;
+        }
+        
+    div.ui.inverted.vertical.footer.segment{    
+    background: #3C948B;
+
+    bottom:0; 
+    width:100%;
+    margin-top: 50px;
+    }
+
+    div.ui.stackable.inverted.divided.grid{
+         margin-top: 50px;
+    }
+
+       
+
