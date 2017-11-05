@@ -1,8 +1,8 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="semantic/semantic.css">
+<head>
+	<title>Perfil Cliente</title>
+	    <link rel="stylesheet" type="text/css" href="semantic/semantic.css">
         <link rel="stylesheet" type="text/css" href="estilo.css">
         
         <style rel="stylesheet" type="text/css" scoped="scoped">
@@ -12,16 +12,16 @@
             height:50;
 
         }
-
-        div.ui.two.columns.centered.grid.stackable{
-          margin-top: 110px          
+        div.ui.four.wide.column{
+        	margin-left: 100px
         }
-
-
-
+        #imagens_usuario{
+        	margin-top: 50px
+        }
+  
         </style>
     </head>
-   <body>
+    <body>
          
     <div class="ui secondary inverted menu fixed">
         <a class="active item">    
@@ -89,111 +89,61 @@
             </div>
     </div>
         <br><br>
-   <body>
-         
-    <div class="ui secondary inverted menu fixed">
-        <a class="active item">    
-          <div id="img_logo" class="image">
-            <img src="">
-          </div>
-        </a>
- 
-        <a class="ui simple dropdown item">
-          categorias
-        <i class="dropdown icon"></i>
-        <div class="menu">
-          <div class="item">Buffet</div>
-          <div class="item">Decoração</div>        
-          <div class="item">Fotógrafo</div>
-          <div class="item">Garçom e Barman</div>
-          <div class="item">Limpeza</div>
-          <div class="item">Locação dos brinquedos</div>
-          <div class="item">Locação do imóvel</div>
-          <div class="item">Som e Iluminação</div>
-        </div>
-        </a>
+		
+		<div class="ui four columns centered grid stackable">
+		<div class="column">
+			<div class="ui card">
+		  		<div class="image">
+		    	<img src="img/usuario.jpg">
+		  		</div>
+		  	<div class="content">
+		    <a class="header">Nome usuário</a>
+		  	</div>
+			</div>
+		</div>
 
-        <a class="ui simple dropdown item">
-          eventos da região
-        <i class="dropdown icon"></i>
-        <div class="menu">
-          <div class="item">Balneário Camboriú</div>        
-          <div class="item">Blumenau</div>
-          <div class="item">Brusque</div>
-          <div class="item">Chapecó</div>
-          <div class="item">Criciúma</div>
-          <div class="item">Florianópolis</div>
-          <div class="item">Itajaí</div>          
-          <div class="item">Jaraguá do Sul</div>
-          <div class="item">Joinville</div>
-        </div>
-        </a>
+	  <div class="column">
+	    <div class="ui raised segment">
+	      <a class="ui red ribbon label">Lista de tarefas</a>
+	    		<ul class="ui list">
+					<li>tarefa</li>
+					<li>tarefa</li>
+					<li>tarefa</li>
+					<li>tarefa</li>
+					<li>tarefa</li>
+					<li>tarefa</li>
+					<li>tarefa</li>
+				</ul>
+	    </div>
+	  </div>
+	  <div class="column">
+	    <div class="ui segment">
+	      <a class="ui orange right ribbon label">Serviços adquiridos</a>
+	    		<ul class="ui list">
+					<li>serviço tal</li>
+					<li>serviço tal</li>
+					<li>serviço tal</li>
+					<li>serviço tal</li>
+					<li>serviço tal</li>
+					<li>serviço tal</li>
+					<li>serviço tal</li>
+				</ul>
+	    </div>
+	  </div>
 
-        <a class="ui simple dropdown item">
-          inspirações
-        <i class="dropdown icon"></i>
-        <div class="menu">
-          <div class="item">Aniversário</div>
-          <div class="item">Casamento</div>
-          <div class="item">Formatura</div>
-          <div class="item">Na Fazenda</div>
-          <div class="item">Na Piscina</div>
-          <div class="item">Revéillon</div>
+	 </div>
+	<div id="imagens_usuario" class="ui four columns centered grid stackable">
+	    <div class="row centered">
+            <h2 class="ui dividing header">Fotos de seus eventos anteriores</h2>
         </div>
-        </a>
-        <a class="item">
-        sobre
-        </a>
-            <div class="right menu">
-                <div class="item">
-                    <div class="ui icon input">
-                        <input type="text" placeholder="Search...">
-                        <i class="search link icon"></i>
-                    </div>
-                </div>
-                <a class="ui item">
-                Login
-                </a>
-            </div>
-    </div>
-        <br><br>
-        
-            <div class="ui internally celled centered grid">
-              
-            <h1 class="ui dividing header centered">Sobre Nós</h1>
-          
-                <div class="row centered">
-                  <div class="three wide column">
-                    <img class="ui medium circular image" src="img/imovel.png">
-                  </div>
-                  <div class="six wide column">
-                  
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  </div>
-                </div>
-           </div>
+		<div class="ui small images">
+		  <img src="img/imovel.png">
+		  <img src="img/imovel.png">
+		  <img src="img/imovel.png">
+		  <img src="img/imovel.png">
+		</div>
+	</div>
 
-        <div class="ui two columns centered grid stackable">
-          <div class="column">
-            <div class="header">
-              <h3>Nos ajude a melhorar!</h3>
-            </div><br>
-              <div class="ui form">
-              <div class="field">
-                <h5>Envie suas sugestões no campo abaixo:</h5>
-                <textarea></textarea>
-              </div>
-              </div>
-        <br><br>
-              <div class="ui submit button">Enviar</div>
-        </div>
-        </div>
-       
 
 <div class="ui inverted vertical footer segment">
     <div class="ui center aligned container">
