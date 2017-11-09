@@ -2,11 +2,13 @@
    	body {
 		margin-top: 50px;
                 background-color: #E6E6EA;
+        font-size: 140%;
 
 	}
         
         div.ui.secondary.inverted.menu.fixed{
-            background-color: #28C4BF;
+            background-color: #0CB2A1;
+            font-size: 80%
             
 
         }
@@ -18,7 +20,7 @@
         }
         
     div.ui.inverted.vertical.footer.segment{    
-    background: #3C948B;
+    background: #0CB2A1;
 
     bottom:0; 
     width:100%;
@@ -28,6 +30,38 @@
     div.ui.stackable.inverted.divided.grid{
          margin-top: 50px;
     }
+
+        #img_logo{
+            width: 70px;
+            height:50px;
+
+        }
+        div.ui.four.wide.column{
+            margin-left: 100px
+        }
+        #imagens_usuario{
+            margin-top: 50px
+        }
+          #prox_even{
+          margin-top: 50px
+        }
+                form.ui.form{
+            margin-left: 100px
+
+        }
+            #imagens_usuario{
+            margin-top: 50px
+        }
+
+
+                div.ui.two.columns.centered.grid.stackable{
+          margin-top: 110px          
+        }
+  
+
+
+
+
 
        
 

@@ -7,10 +7,6 @@
         
         <style rel="stylesheet" type="text/css" scoped="scoped">
 
-        #img_logo{
-            width: 70px;
-            height:50;
-
         }
         body{
         	margin-top: 100px
@@ -25,8 +21,9 @@
 
 	<div class="ui middle aligned center aligned grid">
 	  <div class="column">
-	    <h2 class="ui teal image header">
-	      <img src="" class="image">
+	    <h2 class="ui teal header">
+          <div id="img_logo" class="ui circular image"></div>
+            <img src="img/logo4.jpg">
 	      <div class="content">
 	       Entre com sua conta!
 	      </div>
@@ -72,7 +69,7 @@
 
 		</div>
 	    <div class="ui message">
-	      Não tem uma conta? <a href="#">Cadastre-se!</a>
+	      Não tem uma conta? <a href="form_primeiro.php">Cadastre-se!</a>
 	    </div>
 	  </div>
 	</div>

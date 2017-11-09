@@ -7,73 +7,62 @@
         <link rel="stylesheet" type="text/css" href="estilo.css">
         
         <style rel="stylesheet" type="text/css" scoped="scoped">
-
-        #img_logo{
-            width: 70px;
-            height:50;
-
-        }
-        #prox_even{
-          margin-top: 50px
-        }
-
-
-
         </style>
     </head>
     <body>
          
     <div class="ui secondary inverted menu fixed">
-        <a class="active item">    
-          <div id="img_logo" class="image">
-            <img src="">
+        <a href="index.php" class="item">    
+          <div id="img_logo" class="ui image">
+            <img src="img/logo4.jpg">
           </div>
+
         </a>
  
-        <a class="ui simple dropdown item">
+        <div class="ui simple dropdown item">
           categorias
         <i class="dropdown icon"></i>
         <div class="menu">
-          <div class="item">Buffet</div>
-          <div class="item">Decoração</div>        
-          <div class="item">Fotógrafo</div>
-          <div class="item">Garçom e Barman</div>
-          <div class="item">Limpeza</div>
-          <div class="item">Locação dos brinquedos</div>
-          <div class="item">Locação do imóvel</div>
-          <div class="item">Som e Iluminação</div>
+          <a class="item">Buffet</a>
+          <a class="item">Decoração</a>        
+          <a class="item">Fotógrafo</a>
+          <a class="item">Garçom e Barman</a>
+          <a class="item">Limpeza</a>
+          <a class="item">Locação dos brinquedos</a>
+          <a href="locacao_imovel.php" class="item">Locação do imóvel</a>
+          <a class="item">Som e Iluminação</a>
         </div>
-        </a>
+        </div>
 
-        <a class="ui simple dropdown item">
+        <div class="ui simple dropdown item">
           eventos da região
         <i class="dropdown icon"></i>
         <div class="menu">
-          <div class="item">Balneário Camboriú</div>        
-          <div class="item">Blumenau</div>
-          <div class="item">Brusque</div>
-          <div class="item">Chapecó</div>
-          <div class="item">Criciúma</div>
-          <div class="item">Florianópolis</div>
-          <div class="item">Itajaí</div>          
-          <div class="item">Jaraguá do Sul</div>
-          <div class="item">Joinville</div>
+          <a class="item">Balneário Camboriú</a>        
+          <a href="even_blumenau.php"class="item">Blumenau</a>
+          <a class="item">Brusque</a>
+          <a class="item">Chapecó</a>
+          <a class="item">Criciúma</a>
+          <a class="item">Florianópolis</a>
+          <a class="item">Itajaí</a>          
+          <a class="item">Jaraguá do Sul</a>
+          <a class="item">Joinville</a>
         </div>
-        </a>
+        </div>
 
-        <a class="ui simple dropdown item">
+        <div class="ui simple dropdown item">
           inspirações
         <i class="dropdown icon"></i>
         <div class="menu">
-          <div class="item">Aniversário</div>
-          <div class="item">Casamento</div>
-          <div class="item">Formatura</div>
-          <div class="item">Na Fazenda</div>
-          <div class="item">Na Piscina</div>
-          <div class="item">Revéillon</div>
+          <a class="item" href="insp_aniver.php">Aniversário</a>
+          <a href="" class="item">Casamento</a>
+          <a class="item">Formatura</a>
+          <a class="item">Na Fazenda</a>
+          <a class="item">Na Piscina</a>
+          <a class="item">Revéillon</a>
         </div>
-        </a>
-        <a class="item">
+        </div>
+        <a href="sobre.php" class="item">
         sobre
         </a>
             <div class="right menu">
@@ -83,7 +72,7 @@
                         <i class="search link icon"></i>
                     </div>
                 </div>
-                <a class="ui item">
+                <a href="login.php" class="ui item">
                 Login
                 </a>
             </div>
@@ -152,7 +141,7 @@
                         <img src="img/imovel.png">
                     </div>
                     <div class="content">
-                      <a class="header">Locação do imóvel</a>
+                      <a class="header" href="locacao_imovel.php">Locação do imóvel</a>
                     </div>
                   </div>
                   <div class="ui card">
