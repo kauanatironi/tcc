@@ -86,7 +86,7 @@
 		    	<img src="img/usuario.jpg">
 		  		</div>
 		  	<div class="content">
-		    <a class="header">Nome usuário</a>
+		    <div class="header">Nome usuário</div>
 		  	</div>
 			</div>
 		</div>

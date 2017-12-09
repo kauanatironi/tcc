@@ -9,7 +9,9 @@
 
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
-        
+        <script type="text/javascript" src="semantic/components/rating.js"></script> 
+        <link rel="stylesheet" type="text/css" href="semantic/components/ratings.css">
+
         <style rel="stylesheet" type="text/css" scoped="scoped">
 
         </style>

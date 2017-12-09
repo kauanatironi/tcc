@@ -139,7 +139,8 @@
               <div class="field">
                 <div class="ui radio checkbox">
                   <input type="radio" name="frequency">
-                  <label>funcionário</label>
+                  <label>profissional</label>
+                  
                 </div>
               </div>
           </div>
@@ -148,7 +149,6 @@
         <div class="ui submit button">continuar cadastro</div>
         </div>
     </form>
-
 <div class="ui inverted vertical footer segment">
     <div class="ui center aligned container">
       <div class="ui stackable inverted divided grid">
